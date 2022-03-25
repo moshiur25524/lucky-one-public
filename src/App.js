@@ -1,12 +1,11 @@
 
 import './App.css';
-import Cars from './components/Cars/Cars';
+import Shop from './components/Shop/Shop';
 
 function App() {
   return (
     <div className="App">
-      <h1>Have to start the assinment</h1>
-      <Cars></Cars>
+      <Shop></Shop>
     </div>
   );
 }

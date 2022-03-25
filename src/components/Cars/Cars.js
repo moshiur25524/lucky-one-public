@@ -1,4 +1,6 @@
 import React from 'react';
+import Car from '../Car/Car';
+import './Cars.css'
 
 const Cars = () => {
     const cars = [
@@ -15,10 +17,15 @@ const Cars = () => {
     ]
     return (
         <div>
-            <h1>here will be all cars</h1>
+           <h1>Choose 4 cars for lovely trip</h1>
+            <div className='cars'>
             {
-                cars.map(car=>console.log(car))
+                cars.map(car=><Car
+                key={car.id}
+                car={car}
+                ></Car>)
             }
+            </div>
         </div>
     );
 };
