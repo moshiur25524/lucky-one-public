@@ -1,4 +1,4 @@
-# Lucky one
+# Lucky One
 
 The live site of the project [Lucky one live site](https://gorgeous-kringle-d230cd.netlify.app/).
 
