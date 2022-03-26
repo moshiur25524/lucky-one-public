@@ -34,6 +34,7 @@ const Cars = () => {
             {
                 cart.map(item=><Cart
                     item ={item}
+                    key={item.id}
                     ></Cart>)
             }
             <button>Choose 1</button>
