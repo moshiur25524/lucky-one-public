@@ -29,12 +29,15 @@ const Cars = () => {
                 ></Car>)
             }
             </div>
-            <div>
+            <div className='carts-container'>
+            <h2>Selected cars</h2>
             {
                 cart.map(item=><Cart
                     item ={item}
                     ></Cart>)
             }
+            <button>Choose 1</button>
+            <button>Choose again</button>
             </div>
             </div>
         </div>

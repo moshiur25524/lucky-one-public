@@ -8,7 +8,7 @@ const Car = (props) => {
     const {handleAddToCart}=props;
     return (
         <div className='car'>
-            <h2>Name:{name}</h2>
+            <h2>Name: {name}</h2>
             <img src={img} alt="" />
             <p>Price: ${price}</p>
             <button onClick={()=>handleAddToCart(props.car)}>Add to Cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button>
