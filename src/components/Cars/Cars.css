@@ -11,3 +11,9 @@ h1{
     grid-template-columns: 1fr;
     }
 }
+.car-container{
+    
+        display: grid;
+        grid-template-columns: 5fr 2fr;
+    
+}

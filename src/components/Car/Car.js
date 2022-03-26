@@ -11,7 +11,7 @@ const Car = (props) => {
             <h2>Name:{name}</h2>
             <img src={img} alt="" />
             <p>Price: ${price}</p>
-            <button onClick={handleAddToCart}>Add to Cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button>
+            <button onClick={()=>handleAddToCart(props.car)}>Add to Cart <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon></button>
         </div>
     );
 };
