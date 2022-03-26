@@ -16,6 +16,9 @@ const Cars = () => {
         const newCart = [...cart, car];
         setCart(newCart);
     }
+
+
+
     return (
         <div>
            <h1>Choose 4 cars for lovely trip</h1>
