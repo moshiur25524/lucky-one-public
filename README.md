@@ -1,6 +1,6 @@
 # Lucky one
 
-The live site of the project [Create React App](https://github.com/facebook/create-react-app).
+The live site of the project [Lucky one live site](https://gorgeous-kringle-d230cd.netlify.app/).
 
 ## Available Scripts
 

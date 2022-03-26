@@ -8,7 +8,6 @@ const Cart = ({item}) => {
     // const {cart}=props;
     return (
         <div className='cart'>
-            
             <p>Name: {item.name}<FontAwesomeIcon icon= {faDeleteLeft}></FontAwesomeIcon></p>
         </div>
     );
